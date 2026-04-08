@@ -33,3 +33,11 @@ This project was built entirely in pure Pandas to serve as a fast Proof of Conce
 1. Clone this repo.
 2. Make sure you have pandas, matplotlib, and kagglehub installed.
 3. Run the notebook. The script will automatically pull the raw dataset directly from Kaggle and output the data profiling tables and the final bar chart of errors.
+
+## 📊 Project Results
+
+**1. Data Profiling Results:**
+![Data Profiling](Profiling Data Results.png)
+
+**2. Data Quality Dashboard:**
+![Failed Records](Data Quality Monitoring System Failed Records.png)
