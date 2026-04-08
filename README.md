@@ -24,7 +24,7 @@ While running my consistency checks, my code flagged an incredible 92.4% failure
 
 After digging into the data, I realized the clinic's front-end system doesn't have any data validation. Receptionists were just typing dates into a free-text box in dozens of different formats (like "12-Jun-2024" or "May 18"). 
 
-My Recommendation: The permanent fix for this isn't just cleaning the data after the fact—it's changing the UI to use a strict Calendar Date-Picker so users are forced into a standardized format right at the source.
+My Recommendation: The permanent fix for this isn't just cleaning the data after the fact it's changing the UI to use a strict Calendar Date-Picker so users are forced into a standardized format right at the source.
 
 ## Future Improvements
 This project was built entirely in pure Pandas to serve as a fast Proof of Concept (PoC). If I were to scale this up for a real enterprise hospital, I would migrate these exact Python rules into a dedicated testing framework like Great Expectations and automate the daily runs using Airflow.
