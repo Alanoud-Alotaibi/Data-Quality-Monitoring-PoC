@@ -3,7 +3,7 @@ A Python-based Data Quality Monitoring pipeline that automatically profiles, val
 
 ## Project Deliverables
 - 📄 **[Detailed Project Report (PDF)](MessyClinicAppointments_Report.pdf)**
-- 📊 **[Project Presentation Slides (PDF)](Messy_Clinic_Appointment_DataSet_Presentation.pdf)**
+- 📊 **[Project Presentation Slides (PDF)](Messy_Clinic_Appointment_DataSet_Presentation%20(1).pdf)**
 
 Hi! This is a Data Quality Monitoring project I built using Python and Pandas.
  
