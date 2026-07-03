@@ -37,13 +37,9 @@ This project was built entirely in pure Pandas to serve as a fast Proof of Conce
 ## Project Results
 
 ### 1. Age Outliers Analysis
-We generated outlier boxplots for the `age` attribute using both Seaborn and Matplotlib:
+We generated an outlier boxplot for the `age` attribute:
 
-* **Seaborn Boxplot:**
-  ![Age Outliers Seaborn](age_outliers_seaborn.png)
-
-* **Matplotlib Boxplot:**
-  ![Age Outliers Matplotlib](age_outliers_matplotlib.png)
+![Age Outliers](age_outliers.png)
 
 ### 2. Quality Checks Implementation
 We visualized the failed records count using two formats:
