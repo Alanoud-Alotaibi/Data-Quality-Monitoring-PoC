@@ -1,7 +1,12 @@
 # Data-Quality-Monitoring-PoC
 A Python-based Data Quality Monitoring pipeline that automatically profiles, validates, and flags anomalies in messy healthcare datasets.
 
-Hi! This is a Data Quality Monitoring project I built using Python and Pandas. 
+## Project Deliverables
+- 📄 **[Detailed Project Report (PDF)](MessyClinicAppointments_Report.pdf)**
+- 📊 **[Project Presentation Slides (PDF)](Messy_Clinic_Appointment_DataSet_Presentation.pdf)**
+
+Hi! This is a Data Quality Monitoring project I built using Python and Pandas.
+ 
 
 For this project, I acted as a Data Quality Analyst tasked with finding errors in a simulated healthcare database. I used the Messy Clinic Appointments Dataset ,which definitely lives up to its name to build a prototype monitoring pipeline that catches bad data before it ruins a database.
 
