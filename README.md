@@ -36,8 +36,25 @@ This project was built entirely in pure Pandas to serve as a fast Proof of Conce
 
 ## Project Results
 
-**1. Data Profiling Results:**
-![Data Profiling](Profiling%20Data%20Results.png)
+### 1. Age Outliers Analysis
+We generated outlier boxplots for the `age` attribute using both Seaborn and Matplotlib:
 
-**2. Data Quality Dashboard:**
-![Failed Records](Data%20Quality%20Monitoring%20System%20Failed%20Records.png)
+* **Seaborn Boxplot:**
+  ![Age Outliers Seaborn](age_outliers_seaborn.png)
+
+* **Matplotlib Boxplot:**
+  ![Age Outliers Matplotlib](age_outliers_matplotlib.png)
+
+### 2. Quality Checks Implementation
+We visualized the failed records count using two formats:
+
+* **Detailed Quality Checks (IS346 - 10 Checks):**
+  ![IS346 Quality Checks](is346_quality_checks.png)
+
+* **Data Quality System Summary (DataQuality - 4 Checks):**
+  ![Data Quality System](data_quality_system.png)
+
+### 3. Data Quality Metrics Dashboard
+This overall metrics summary visualizes our completeness, uniqueness, validity, consistency, and general quality score:
+
+![Overall Data Quality Dashboard](overall_data_quality_dashboard.png)
