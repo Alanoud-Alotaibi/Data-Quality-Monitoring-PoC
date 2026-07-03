@@ -5,10 +5,10 @@ A Python-based Data Quality Monitoring pipeline that automatically profiles, val
 - 📄 **[Detailed Project Report (PDF)](MessyClinicAppointments_Report.pdf)**
 - 📊 **[Project Presentation Slides (PDF)](Messy_Clinic_Appointment_DataSet_Presentation%20(1).pdf)**
 
-Hi! This is a Data Quality Monitoring project I built using Python and Pandas.
+Hi! This is a Data Quality Monitoring project we built using Python and Pandas.
  
 
-For this project, I acted as a Data Quality Analyst tasked with finding errors in a simulated healthcare database. I used the Messy Clinic Appointments Dataset ,which definitely lives up to its name to build a prototype monitoring pipeline that catches bad data before it ruins a database.
+For this project, we acted as a Data Quality Analyst tasked with finding errors in a simulated healthcare database. we used the Messy Clinic Appointments Dataset ,which definitely lives up to its name to build a prototype monitoring pipeline that catches bad data before it ruins a database.
 
 ## Tools Used
 * Python
@@ -17,7 +17,7 @@ For this project, I acted as a Data Quality Analyst tasked with finding errors i
 * Google Colab
 
 ## What the Code Actually Does
-I wrote a script that automatically scans incoming clinic data and flags rows that fail four major industry data quality rules:
+we wrote a script that automatically scans incoming clinic data and flags rows that fail four major industry data quality rules:
 
 1. Completeness: Are there missing patient names?
 2. Uniqueness: Did the system generate duplicate Patient IDs?
@@ -25,14 +25,14 @@ I wrote a script that automatically scans incoming clinic data and flags rows th
 4. Consistency: Do the appointment dates follow a strict format?
 
 ## The Biggest Finding
-While running my consistency checks, my code flagged an incredible 92.4% failure rate in the appointment_date column. 
+While running our consistency checks, our code flagged an incredible 92.4% failure rate in the appointment_date column. 
 
-After digging into the data, I realized the clinic's front-end system doesn't have any data validation. Receptionists were just typing dates into a free-text box in dozens of different formats (like "12-Jun-2024" or "May 18"). 
+After digging into the data, we realized the clinic's front-end system doesn't have any data validation. Receptionists were just typing dates into a free-text box in dozens of different formats (like "12-Jun-2024" or "May 18"). 
 
-My Recommendation: The permanent fix for this isn't just cleaning the data after the fact it's changing the UI to use a strict Calendar Date-Picker so users are forced into a standardized format right at the source.
+Our Recommendation: The permanent fix for this isn't just cleaning the data after the fact it's changing the UI to use a strict Calendar Date-Picker so users are forced into a standardized format right at the source.
 
 ## Future Improvements
-This project was built entirely in pure Pandas to serve as a fast Proof of Concept (PoC). If I were to scale this up for a real enterprise hospital, I would migrate these exact Python rules into a dedicated testing framework like Great Expectations and automate the daily runs using Airflow.
+This project was built entirely in pure Pandas to serve as a fast Proof of Concept (PoC). If we were to scale this up for a real enterprise hospital, we would migrate these exact Python rules into a dedicated testing framework like Great Expectations and automate the daily runs using Airflow.
 
 ## How to Run It
 1. Clone this repo.
