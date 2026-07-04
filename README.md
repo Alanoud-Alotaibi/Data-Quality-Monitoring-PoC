@@ -34,7 +34,33 @@ After digging into the data, we realized the clinic's front-end system doesn't h
 ## Future Improvements
 This project was built entirely in pure Pandas to serve as a fast Proof of Concept (PoC). If we were to scale this up for a real enterprise hospital, we would migrate these exact Python rules into a dedicated testing framework like Great Expectations and automate the daily runs using Airflow.
 
-## How to Run It
-1. Clone this repo:
-   ```bash
-   git clone [https://github.com/Alanoud-Alotaibi/Clinic-Data-Quality-Audit-Monitoring-System.git](https://github.com/Alanoud-Alotaibi/Clinic-Data-Quality-Audit-Monitoring-System.git)
+### Project Results:
+
+### 1. Age Outliers Analysis
+We generated an outlier boxplot for the `age` attribute:
+
+![Age Outliers](age_outliers.png)
+
+### 2. Quality Checks Implementation
+We visualized the failed records count using two formats:
+
+* **Detailed Quality Checks (IS346 - 10 Checks):**
+  ![IS346 Quality Checks](is346_quality_checks.png)
+
+* **Data Quality System Summary (DataQuality - 4 Checks):**
+  ![Data Quality System](data_quality_system.png)
+
+### 3. Data Quality Metrics Dashboard
+This overall metrics summary visualizes our completeness, uniqueness, validity, consistency, and general quality score:
+
+![Overall Data Quality Dashboard](overall_data_quality_dashboard.png)
+
+---
+## Contributors
+
+- **Alanoud Alotaibi**  
+  GitHub: https://github.com/Alanoud-Alotaibi
+  ## Contributors
+
+- **Najd Altamimi**  
+  GitHub: https://github.com/najdalt1
