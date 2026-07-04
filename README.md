@@ -45,10 +45,10 @@ We generated an outlier boxplot for the `age` attribute:
 ### 2. Quality Checks Implementation
 We visualized the failed records count using two formats:
 
-* **Detailed Quality Checks (IS346 - 10 Checks):**
+* **Detailed Quality Checks**
   ![IS346 Quality Checks](is346_quality_checks.png)
 
-* **Data Quality System Summary (DataQuality - 4 Checks):**
+* **Data Quality System Summary**
   ![Data Quality System](data_quality_system.png)
 
 ### 3. Data Quality Metrics Dashboard
