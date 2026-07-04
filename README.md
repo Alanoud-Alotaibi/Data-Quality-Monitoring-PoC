@@ -34,6 +34,7 @@ After digging into the data, we realized the clinic's front-end system doesn't h
 ## Future Improvements
 This project was built entirely in pure Pandas to serve as a fast Proof of Concept (PoC). If we were to scale this up for a real enterprise hospital, we would migrate these exact Python rules into a dedicated testing framework like Great Expectations and automate the daily runs using Airflow.
 
+---
 ### Project Results:
 
 ### 1. Age Outliers Analysis
@@ -60,7 +61,5 @@ This overall metrics summary visualizes our completeness, uniqueness, validity, 
 
 - **Alanoud Alotaibi**  
   GitHub: https://github.com/Alanoud-Alotaibi
-  ## Contributors
-
 - **Najd Altamimi**  
   GitHub: https://github.com/najdalt1
